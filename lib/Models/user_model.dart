@@ -14,6 +14,7 @@ class ExpensesModel {
   final String? description;
   @HiveField(4)
   final Color color;
+
   @HiveField(5)
   final IconData icon;
   @HiveField(6)

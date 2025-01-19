@@ -1,4 +1,3 @@
-
 class CategoriesModel {
   final String id;
   final String categorie;

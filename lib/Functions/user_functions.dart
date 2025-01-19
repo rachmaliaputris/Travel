@@ -128,7 +128,7 @@ addBlog({required CompletedTripModelBlog blog}) async {
       await Hive.openBox<CompletedTripModelBlog>(completedTripBlogDbName);
   await completedTripBlogBox.put(blog.id, blog);
   await blogToList();
-    completedTripListBlog.notifyListeners();
+  completedTripListBlog.notifyListeners();
 }
 
 removeBLog({required CompletedTripModelBlog blog}) async {

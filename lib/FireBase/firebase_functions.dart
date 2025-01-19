@@ -146,4 +146,3 @@ getFireBaseDetails() async {
   placeModelListener.notifyListeners();
   categorieListener.notifyListeners();
 }
-
